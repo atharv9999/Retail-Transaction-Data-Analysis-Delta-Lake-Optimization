@@ -154,6 +154,10 @@ Potential enhancements for future iterations include:
 * Deploying Machine Learning models for predicting customer churn or identifying high-value segments.  
 * Adding comprehensive unit tests and data validation checks using libraries like Deequ or Great Expectations.
 
+## **Note**
+As project is implemented on databricks with databricks specifi function like display(), magic %sql and charts using databricks visualizations, all this can't be exported as ipynb or python source. Here python source file is given but above given functionalities are can't be displayed.
+Best option is exporting as HTML, so here HTML type file of databricks notebook is given, but as its size is 5.1MB, it can't be shown in GitHub, download it and you can see full databricks notebook content with all functionality.
+
 ## **🙋‍♂️ Author**
 
 Atharv Kulkarni  
