@@ -117,24 +117,13 @@ While optional, the project enables basic visualizations within Databricks noteb
 
 These visualizations can be further extended and integrated into tools like **Power BI** by connecting via Azure SQL Linked Service to Delta tables.
 
-## **📁 Project Structure**
+## **📁 Dat Source Structure**
 
 📁 data/  
 ├── customers.csv  
 ├── products.csv  
 ├── transactions.csv  
 └── locations.csv
-
-📁 notebooks/  
-└── etl\_transaction\_pipeline.ipynb
-
-📁 insights/  
-└── enriched\_df\_analysis.py
-
-📁 delta\_tables/  
-└── gold\_enriched\_transactions (Delta path or managed table)
-
-📄 README.md
 
 ## **✅ Final Outcomes**
 
